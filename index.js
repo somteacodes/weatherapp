@@ -6,7 +6,7 @@ const timeImage = document.querySelector(".card-top img");
 const cardInfo = document.querySelector(".back-card");
 
 const spitOutCelcius = (kelvin) => Math.round(kelvin - 273.15);
-const isDayTime = (icon) => (icon.includes("d") ? true : false);
+const isDayTime = (icon) => (true ? icon.includes("d") : false);
 
 updateWeatherApp = (city) => {
   console.log(city);
